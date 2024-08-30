@@ -71,7 +71,7 @@ app.get('/', async (req, res) => {
     console.log("Request received");
     const playlistUrl = req.query.link;
     if (!playlistUrl) {
-        return res.send('Hello! This API fetches songs from a Spotify playlist. Please provide a playlist URL as a query parameter. clientTest: ');
+        return res.send('Hello! This API fetches songs from a Spotify playlist. Please provide a playlist URL as a query parameter. clientTest: ' + token);
     }
     const playlistID = extractPlaylistId(playlistUrl);
     if (!playlistID) {
