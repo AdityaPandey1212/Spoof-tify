@@ -70,6 +70,9 @@ async function search(query) {
 app.get('/', async (req, res) => {
     console.log("Request received");
     const playlistUrl = req.query.link;
+    if (!playlistUrl) {
+        return res.send('Hello! This API fetches songs from a Spotify playlist. Please provide a playlist URL as a query parameter.');
+    }
     const playlistID = extractPlaylistId(playlistUrl);
     if (!playlistID) {
         return res.status(400).json({ error: 'Invalid playlist URL' });
@@ -130,6 +133,5 @@ async function getToken(clientID, clientSec) {
 // Start the server
 app.listen(3000, async () => {
     console.log('Server started');
-    console.log(clientID);
     token = await getToken(clientID, clientSec);
 });
