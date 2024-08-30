@@ -130,5 +130,6 @@ async function getToken(clientID, clientSec) {
 // Start the server
 app.listen(3000, async () => {
     console.log('Server started');
+    console.log(clientID);
     token = await getToken(clientID, clientSec);
 });
