@@ -11,7 +11,7 @@ app.use(express.json()); // Middleware to parse JSON
 const clientID = process.env.CLIENT_ID;
 const clientSec = process.env.CLIENT_SEC;
 const rapidapi = process.env.RAPIDAPI;
-let token = '';
+let token = 'BQAWP38l9h-T9hTtzzxebFkAgiA0DvA62G728XS9k-q5qhK1WUQLU27HEmsz3QxVWfPhrj2vfTa984TBqFEgqzrHHLTh1irrpnRQ5n_oVIkMe8oVuGA';
 // Function to fetch Spotify playlist data
 async function fetchData(playlistID) {
     try {
@@ -133,5 +133,4 @@ async function getToken(clientID, clientSec) {
 // Start the server
 app.listen(3000, async () => {
     console.log('Server started');
-    token = await getToken(clientID, clientSec);
 });
