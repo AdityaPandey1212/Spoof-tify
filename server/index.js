@@ -60,7 +60,7 @@ async function fetchMP3s(id) {
         console.error(error);
         return null;
     }
-}
+} 
 // Function to search for a video
 async function search(query) {
     const results = await youtube.search(query);
@@ -130,7 +130,5 @@ async function getToken(clientID, clientSec) {
 // Start the server
 app.listen(3000, async () => {
     console.log('Server started');
-    console.log(clientID);
-    console.log(clientSec);
     token = await getToken(clientID, clientSec);
 });
