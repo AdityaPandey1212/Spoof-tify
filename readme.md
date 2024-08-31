@@ -4,7 +4,7 @@
 
 This personal project is a web application designed to take a Spotify playlist link, fetch the playlist data using the Spotify API, and convert each song into a downloadable MP3 file using YouTube. Made for educational purposes
 <hr>
-##  Tech Stack 🛠 &nbsp;
+Tech Stack 🛠 &nbsp;
 
 |<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40"> | <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg](https://miro.medium.com/v2/resize:fit:875/1*i2fRBk3GsYLeUk_Rh7AzHw.png)" width="40"> | <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40"> | <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="boostrap" width="40"> |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
