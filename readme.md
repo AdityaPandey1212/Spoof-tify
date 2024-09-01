@@ -50,7 +50,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Demo 📽️
 
-Check out a [video demo](#) of Spoof-tify in action!
+Check out a [video demo](https://www.youtube.com/watch?v=pRoe5NhVIUQ) of Spoof-tify in action!
 
 ## Contributing 🤝
 
