@@ -1,6 +1,9 @@
 <p align="center">
  <p/>
 <h1 align="center"> Welcome to <span style="color : #23d665">Spooftify!<span><img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi"></h1>
+## Demo 📽️
+
+Check out a [video demo](https://www.youtube.com/watch?v=pRoe5NhVIUQ) of Spoof-tify in action!
 
 This personal project is a web application designed to take a Spotify playlist link, fetch the playlist data using the Spotify API, and convert each song into a downloadable MP3 file using YouTube. Made for educational purposes
 <hr>
@@ -47,10 +50,6 @@ Follow these instructions to get a copy of the project up and running on your lo
    go to server directory and install dependencies: npm install
 3. **Create an .env file and add your credentials for CLIENT_ID, CLIENT_SEC and RapidAPI ID**
 3. **Start the Application and open frontend files**
-
-## Demo 📽️
-
-Check out a [video demo](https://www.youtube.com/watch?v=pRoe5NhVIUQ) of Spoof-tify in action!
 
 ## Contributing 🤝
 
